@@ -14,11 +14,11 @@ For a given deployment, check that the rollout of a given deployment has success
 
 ### Usage
 ```console
-user@host:~$ ./check_kubernetes_deployment_rollout_status.py -h
-usage: check_kubernetes_deployment_rollout_status.py [-h] -d DEPLOYMENT
+user@host:~$ ./check_kube_deployment_rollout_status.py -h
+usage: check_kube_deployment_rollout_status.py [-h] -d DEPLOYMENT
                                                [-n NAMESPACE]
  
-user@host:~$ check_kubernetes_deployment_rollout_status.py -d deployment-foo -n namespace-bar
+user@host:~$ check_kube_deployment_rollout_status.py -d deployment-foo -n namespace-bar
 OK, The rollout of deployment-foo has successfully progressed.
 
 ```
