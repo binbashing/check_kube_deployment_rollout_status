@@ -4,7 +4,7 @@ Check script to monitor the rollout status of a Kubernetes Deployment
 ---
 
 ### How it works
-For a given deployment, check that the rollout of a given deployment has successfully progressed.
+For a given deployment, check that the latest rollout has successfully progressed.
 
 ##### Results:
 * OK: The last rollout for a deployment has successfully progressed.
@@ -12,7 +12,7 @@ For a given deployment, check that the rollout of a given deployment has success
 
 ---
 
-### Usage
+### Usag
 ```console
 user@host:~$ ./check_kube_deployment_rollout_status.py -h
 usage: check_kube_deployment_rollout_status.py [-h] -d DEPLOYMENT
