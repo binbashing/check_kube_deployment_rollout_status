@@ -19,7 +19,7 @@ usage: check_kube_deployment_rollout_status.py [-h] -d DEPLOYMENT
                                                [-n NAMESPACE]
  
 user@host:~$ check_kube_deployment_rollout_status.py -d deployment-foo -n namespace-bar
-OK, The rollout of deployment-foo has successfully progressed.
+OK, The rollout of deployment-foo has successfully progress.
 
 ```
 ---
